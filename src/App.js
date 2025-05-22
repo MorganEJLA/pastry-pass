@@ -1,4 +1,5 @@
 import "./categories.styles.scss";
+import "./components/category-item/category-item.styles.scss";
 
 const App = () => {
   const categories = [
@@ -42,7 +43,7 @@ const App = () => {
           <div
             className="background-image"
             style={{
-              backgroundImage: `url(${imageUrl}}`,
+              backgroundImage: `url(${imageUrl})`,
             }}
           />
           <div className="category-body-container">
