@@ -1,3 +1,5 @@
+import { Outlet } from "react-router";
+
 import Directory from "../../components/directory/directory.component";
 
 const Home = () => {
@@ -35,7 +37,13 @@ const Home = () => {
         "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/chocolate-banner.jpg?raw=true",
     },
   ];
-  return <Directory categories={categories} />;
+
+  return (
+    <div>
+      <Outlet />
+      <Directory categories={categories} />
+    </div>
+  );
 };
 
 export default Home;
