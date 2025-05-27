@@ -5,6 +5,7 @@ import "./index.scss";
 import App from "./App";
 import { UserProvider } from "./contexts/user.context";
 import { CrumbsProvider } from "./contexts/crumbs.context";
+import { CartProvider } from "./contexts/cart.context";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -13,7 +14,9 @@ root.render(
     <BrowserRouter>
       <UserProvider>
         <CrumbsProvider>
-          <App />
+          <CartProvider>
+            <App />
+          </CartProvider>
         </CrumbsProvider>
       </UserProvider>
     </BrowserRouter>
