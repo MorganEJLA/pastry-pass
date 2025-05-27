@@ -1,14 +1,14 @@
 import { useContext } from "react";
 
-import { CrumbsContext } from "../../contexts/crumbs.context";
-import CrumbsCard from "../../components/crumbs-card/crumbs-card.component";
+import { DessertsContext } from "../../contexts/crumbs.context";
+import DessertsCard from "../../components/crumbs-card/crumbs-card.component";
 import "./explore.styles.scss";
 const Explore = () => {
-  const { crumbs } = useContext(CrumbsContext);
+  const { desserts } = useContext(DessertsContext);
   return (
-    <div className="crumbs-container">
-      {crumbs?.map((crumbs) => (
-        <CrumbsCard key={crumbs.id} crumbs={crumbs} />
+    <div className="desserts-container">
+      {desserts?.map((dessert) => (
+        <DessertsCard key={dessert.id} dessert={dessert} />
       ))}
     </div>
   );

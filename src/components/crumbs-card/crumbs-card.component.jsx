@@ -1,20 +1,24 @@
+import { useContext } from "react";
 import "./crumbs-card.styles.scss";
 import Button from "../button/button.component";
-
-const CrumbsCard = ({ crumbs }) => {
-  const { name, origin, imageUrl } = crumbs;
-
+import { CartContext } from "../../contexts/cart.context";
+const DessertsCard = ({ dessert }) => {
+  const { name, origin, imageUrl } = dessert;
+  const { addItemToCart } = useContext(CartContext);
+  const addDessertToCart = () => addItemToCart(dessert);
   return (
-    <div className="crumbs-card-container">
+    <div className="desserts-card-container">
       <img src={imageUrl} alt={`${name}`} />
       <div className="footer">
         <span className="name">{name}</span>
         <span className="origin">{origin}</span>
       </div>
 
-      <Button buttonType="inverted">Add to Collection</Button>
+      <Button buttonType="inverted" onClick={addDessertToCart}>
+        Add to Passport
+      </Button>
     </div>
   );
 };
 
-export default CrumbsCard;
+export default DessertsCard;

@@ -2,14 +2,16 @@ import { createContext, useState } from "react";
 
 import DESSERT_DATA from "../pastry-data.json";
 
-export const CrumbsContext = createContext({
-  crumbs: [],
+export const DessertsContext = createContext({
+  desserts: [],
 });
 
-export const CrumbsProvider = ({ children }) => {
-  const [crumbs, setCrumbs] = useState(DESSERT_DATA);
-  const value = { crumbs, setCrumbs };
+export const DessertsProvider = ({ children }) => {
+  const [desserts, setDesserts] = useState(DESSERT_DATA);
+  const value = { desserts, setDesserts };
   return (
-    <CrumbsContext.Provider value={value}>{children}</CrumbsContext.Provider>
+    <DessertsContext.Provider value={value}>
+      {children}
+    </DessertsContext.Provider>
   );
 };
