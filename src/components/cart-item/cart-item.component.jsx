@@ -8,8 +8,8 @@ const CartItem = ({ cartItem }) => {
       <img src={imageUrl} alt={`${name}`} />
       <div className="item-details">
         <span className="name">{name}</span>
-        <span className="quantity">Qty: {quantity}</span>
-        <span className="origin">{origin}</span>
+        <span className="stamps">Tried {quantity}x</span>
+        <span className="origin">📍 {origin}</span>
       </div>
     </div>
   );

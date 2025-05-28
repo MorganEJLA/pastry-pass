@@ -22,9 +22,16 @@
       font-weight: bold;
     }
 
-    .location {
+    .stamps {
       font-size: 14px;
-      color: #555;
+      font-weight: bold;
+      color: #884c24; // chocolate stamp vibe
+    }
+
+    .origin {
+      font-size: 14px;
+      font-style: italic;
+      color: #557a95; // travel stamp tone
     }
   }
 }

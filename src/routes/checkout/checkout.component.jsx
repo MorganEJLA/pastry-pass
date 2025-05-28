@@ -1,31 +1,42 @@
 import { useContext } from "react";
-import { CartContext, addItemToCart } from "../../contexts/cart.context";
+
+import { CartContext } from "../../contexts/cart.context";
+
+import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 
 import "./checkout.styles.scss";
 
 const Checkout = () => {
-  const { cartItems, addItemToCart } = useContext(CartContext);
-  return (
-    <div>
-      <h1>I am the checkout page</h1>
-      <div>
-        {cartItems.map((cartItem) => {
-          const { id, name, quantity, origin } = cartItem;
-          return (
-            <div key={id}>
-              <h2>{name}</h2>
-              <span>{origin}</span>
-              <span>{quantity}</span>
-              <br />
+  const { cartItems, cartTotal } = useContext(CartContext);
 
-              <span>decrement</span>
-              <br />
-              <span onClick={() => addItemToCart(cartItem)}>increment</span>
-            </div>
-          );
-        })}
+  return (
+    <div className="checkout-container">
+      <div className="checkout-header">
+        <div className="header-block">
+          <span>Product</span>
+        </div>
+        <div className="header-block">
+          <span>Description</span>
+        </div>
+        <div className="header-block">
+          <span>Times Tried</span>
+        </div>
+        <div className="header-block">
+          <span>Type</span>
+        </div>
+        <div className="header-block">
+          <span>Remove</span>
+        </div>
+      </div>
+      {cartItems.map((cartItem) => (
+        <CheckoutItem key={cartItem.id} cartItem={cartItem} />
+      ))}
+      <div className="total">
+        PASSPORT STAMPS:{" "}
+        {cartItems.reduce((total, item) => total + item.quantity, 0)}
       </div>
     </div>
   );
 };
+
 export default Checkout;
