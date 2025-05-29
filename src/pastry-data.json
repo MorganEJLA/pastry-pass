@@ -217,38 +217,38 @@
     "type": "pastry"
   },
   {
-    "id": 12,
+    "id": 32,
     "name": "Tentalaria di Cashupete",
     "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
     "origin": "Curação",
     "type": "pastry"
   },
   {
-    "id": 12,
-    "name": "Pardulas",
-    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
-    "origin": "Sardinia",
+    "id": 33,
+    "name": "Carlota de Limon",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Central-America/Mexico/carlota-de-limon-mx.jpg?raw=true",
+    "origin": "Mexico",
     "type": "pastry"
   },
   {
-    "id": 12,
-    "name": "Pardulas",
-    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
-    "origin": "Sardinia",
+    "id": 34,
+    "name": "Ron Ponche",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Central-America/Panama/ron-ponche_panama.png?raw=true",
+    "origin": "Panama",
     "type": "pastry"
   },
   {
-    "id": 12,
-    "name": "Pardulas",
-    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
-    "origin": "Sardinia",
+    "id": 35,
+    "name": "Tarte a la bouillie",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Cajun/Tarte%20%C3%A0%20la%20bouillie-cajun.png?raw=true",
+    "origin": "Cajun",
     "type": "pastry"
   },
   {
-    "id": 12,
-    "name": "Pardulas",
-    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
-    "origin": "Sardinia",
-    "type": "pastry"
+    "id": 36,
+    "name": "Fudge",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Baltimore/fudge-baltimore.jpeg?raw=true",
+    "origin": "Baltimore, MD, North America",
+    "type": "confection"
   }
 ]
