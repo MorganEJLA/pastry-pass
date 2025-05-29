@@ -82,5 +82,173 @@
     "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
     "origin": "Sardinia",
     "type": "pastry"
+  },
+  {
+    "id": 13,
+    "name": "Puff Puff",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Nigeria/puff-puff-nigeria.png?raw=true",
+    "origin": "Nigeria",
+    "type": "pastry"
+  },
+  {
+    "id": 14,
+    "name": "Mandazi",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Tanzania/mandazi-2.jpeg?raw=true",
+    "origin": "Tanzania",
+    "type": "pastry"
+  },
+  {
+    "id": 15,
+    "name": "Kasutera",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Japan/kasutera.jpeg?raw=true",
+    "origin": "Japan",
+    "type": "cake"
+  },
+  {
+    "id": 16,
+    "name": "Egg Tart",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/HongKong/egg-tart-hk.jpeg?raw=true",
+    "origin": "Hong Kong",
+    "type": "pastry"
+  },
+  {
+    "id": 17,
+    "name": "Kelewelee",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Ghana/kelewelee-1.png?raw=true",
+    "origin": "Ghana",
+    "type": "pastry"
+  },
+  {
+    "id": 18,
+    "name": "Sneeuwballen",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Belgium/sneeuwballen-2-belgium.jpeg?raw=true",
+    "origin": "Belgium",
+    "type": "pastry"
+  },
+  {
+    "id": 19,
+    "name": "Ile Flottante",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/France/ile-flottante-france.jpg?raw=true",
+    "origin": "France",
+    "type": "pastry"
+  },
+  {
+    "id": 20,
+    "name": "Charlotte Russe",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/France/charlotte-russe-2.jpeg?raw=true",
+    "origin": "France",
+    "type": "pastry"
+  },
+  {
+    "id": 21,
+    "name": "Zeppole",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/zeppole-2.jpeg?raw=true",
+    "origin": "Italy",
+    "type": "pastry"
+  },
+  {
+    "id": 22,
+    "name": "Zapekanka",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Ukraine/zapekanka.png?raw=true",
+    "origin": "Ukraine",
+    "type": "pastry"
+  },
+  {
+    "id": 23,
+    "name": "Bien me Sabe",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Venezuela",
+    "type": "pastry"
+  },
+  {
+    "id": 24,
+    "name": "Berliners",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Chile/berliners-chile.png?raw=true",
+    "origin": "Chile",
+    "type": "pastry"
+  },
+  {
+    "id": 25,
+    "name": "Torrijas",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Spain/torrijas.png?raw=true",
+    "origin": "Spain",
+    "type": "pastry"
+  },
+  {
+    "id": 26,
+    "name": "Prinsesstarta",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Sweden/prinsesstarta-swe-2.jpeg?raw=true",
+    "origin": "Sweden",
+    "type": "cake"
+  },
+  {
+    "id": 27,
+    "name": "Bananas Foster",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Creole/bananas_foster-nola.jpeg?raw=true",
+    "origin": "New Orleans",
+    "type": "pastry"
+  },
+  {
+    "id": 28,
+    "name": "Chiffon Pie",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/California/Los%20Angeles/chiffon-pie-los-3.jpeg?raw=true",
+    "origin": "Los Angeles, CA, North America",
+    "type": "pastry"
+  },
+  {
+    "id": 29,
+    "name": "Bojo Cake",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Suriname/bojo-cake-suriname.jpeg?raw=true",
+    "origin": "Suriname",
+    "type": "pastry"
+  },
+  {
+    "id": 30,
+    "name": "Taho",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/taho-phil.jpeg?raw=true",
+    "origin": "Philippines",
+    "type": "pastry"
+  },
+  {
+    "id": 31,
+    "name": "Tavuk Gogsu",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/tavuk-gogsu-turk2.jpeg?raw=true",
+    "origin": "Turkiye",
+    "type": "pastry"
+  },
+  {
+    "id": 12,
+    "name": "Tentalaria di Cashupete",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Curação",
+    "type": "pastry"
+  },
+  {
+    "id": 12,
+    "name": "Pardulas",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Sardinia",
+    "type": "pastry"
+  },
+  {
+    "id": 12,
+    "name": "Pardulas",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Sardinia",
+    "type": "pastry"
+  },
+  {
+    "id": 12,
+    "name": "Pardulas",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Sardinia",
+    "type": "pastry"
+  },
+  {
+    "id": 12,
+    "name": "Pardulas",
+    "imageUrl": "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/Sardinia/pardulas-sardinia.jpeg?raw=true",
+    "origin": "Sardinia",
+    "type": "pastry"
   }
 ]

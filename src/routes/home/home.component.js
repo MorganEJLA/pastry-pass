@@ -24,7 +24,7 @@ const Home = () => {
     },
     {
       id: 4,
-      title: "Global",
+      title: "Global Bites",
       subtitle: "Taste the World",
       imageUrl:
         "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/clifford-5ZB0w0vSgPk-unsplash.jpg?raw=true",
