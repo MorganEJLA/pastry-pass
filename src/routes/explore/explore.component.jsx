@@ -1,16 +1,22 @@
 import { useContext } from "react";
-
-import { DessertsContext } from "../../contexts/crumbs.context";
-import DessertsCard from "../../components/crumbs-card/crumbs-card.component";
+import { CategoriesContext } from "../../contexts/categories.context";
+import CategoryPreview from "../../components/category-preview/category-preview.component";
 import "./explore.styles.scss";
+
 const Explore = () => {
-  const { desserts } = useContext(DessertsContext);
+  const { categoriesMap } = useContext(CategoriesContext);
+
   return (
-    <div className="desserts-container">
-      {desserts?.map((dessert) => (
-        <DessertsCard key={dessert.id} dessert={dessert} />
+    <>
+      {Object.keys(categoriesMap).map((title) => (
+        <CategoryPreview
+          key={title}
+          title={title}
+          desserts={categoriesMap[title]}
+        />
       ))}
-    </div>
+    </>
   );
 };
+
 export default Explore;
