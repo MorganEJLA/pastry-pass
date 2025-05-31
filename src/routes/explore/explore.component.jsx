@@ -7,15 +7,14 @@ const Explore = () => {
   const { categoriesMap } = useContext(CategoriesContext);
 
   return (
-    <>
-      {Object.keys(categoriesMap).map((title) => (
-        <CategoryPreview
-          key={title}
-          title={title}
-          desserts={categoriesMap[title]}
-        />
-      ))}
-    </>
+    <div className="explore-container">
+      {Object.keys(categoriesMap).map((title) => {
+        const desserts = categoriesMap[title];
+        return (
+          <CategoryPreview key={title} title={title} desserts={desserts} />
+        );
+      })}
+    </div>
   );
 };
 
