@@ -225,7 +225,7 @@ const DESSERT_DATA = [
         type: "Apple Tart",
       },
       {
-        id: 27,
+        id: 26,
         name: "Sharlotka",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Russia/sharlotka-russia.jpeg?raw=true",
@@ -233,7 +233,7 @@ const DESSERT_DATA = [
         type: "Apple Pie",
       },
       {
-        id: 28,
+        id: 27,
         name: "Sweet Potato Pie",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Southern/sweet-potato-pie-south.jpeg?raw=true",
@@ -241,7 +241,7 @@ const DESSERT_DATA = [
         type: "Cream Pie",
       },
       {
-        id: 29,
+        id: 28,
         name: "Tarte Normande",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/France/tarte-normande-2.jpeg?raw=true",
@@ -249,7 +249,7 @@ const DESSERT_DATA = [
         type: "Tart",
       },
       {
-        id: 30,
+        id: 29,
         name: "Carac",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Switzerland/carac-tart-switz.jpg?raw=true",
@@ -262,7 +262,7 @@ const DESSERT_DATA = [
     title: "Cookies",
     items: [
       {
-        id: 8,
+        id: 30,
         name: "Casadinhos",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Brazil/casadinhos-1.png?raw=true",
@@ -270,7 +270,7 @@ const DESSERT_DATA = [
         type: "Sandwich Cookie",
       },
       {
-        id: 9,
+        id: 31,
         name: "Soplillos",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Spain/soplillos.jpg?raw=true",
@@ -278,7 +278,7 @@ const DESSERT_DATA = [
         type: "Almond Meringue Cookie",
       },
       {
-        id: 10,
+        id: 32,
         name: "Sorghum Cookies",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Appalachia/sorghum-cookies-appl.jpeg?raw=true",
@@ -286,7 +286,7 @@ const DESSERT_DATA = [
         type: "Molasses Cookie",
       },
       {
-        id: 10,
+        id: 33,
         name: "Alfajores",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Argentina/alfajor-arg-2.jpeg?raw=true",
@@ -294,7 +294,7 @@ const DESSERT_DATA = [
         type: "Sandwich Cookies",
       },
       {
-        id: 10,
+        id: 34,
         name: "Baci di Dama",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/baci-di-dama-2.jpeg?raw=true",
@@ -302,7 +302,7 @@ const DESSERT_DATA = [
         type: "Hazelnut sandwich cookies",
       },
       {
-        id: 10,
+        id: 35,
         name: "Macaron",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/France/macaron-fr.jpeg?raw=true",
@@ -310,7 +310,7 @@ const DESSERT_DATA = [
         type: "Meringue-based sandwich cookies",
       },
       {
-        id: 10,
+        id: 36,
         name: "Štramberské-uši",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Czech/%C5%A0trambersk%C3%A9-u%C5%A1i-czech.jpeg?raw=true",
@@ -318,7 +318,7 @@ const DESSERT_DATA = [
         type: "Molasses Cookie",
       },
       {
-        id: 10,
+        id: 37,
         name: "Amaretti",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/amaretti-it.jpg?raw=true",
@@ -326,7 +326,7 @@ const DESSERT_DATA = [
         type: "Almond Biscotti",
       },
       {
-        id: 10,
+        id: 38,
         name: "Macau Almond Cookies",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Macau/macau-almond-cookies.jpeg?raw=true",
@@ -334,7 +334,7 @@ const DESSERT_DATA = [
         type: "Almond Cookie",
       },
       {
-        id: 10,
+        id: 39,
         name: "Black and White Cookie",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/black-and-white-cookie-nyc.jpg?raw=true",
@@ -342,7 +342,7 @@ const DESSERT_DATA = [
         type: "Half Moon Cookie",
       },
       {
-        id: 10,
+        id: 40,
         name: "Bizcochito",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Southwest/bizcochito-newmex.jpeg?raw=true",
@@ -350,7 +350,7 @@ const DESSERT_DATA = [
         type: "Butter Cookie",
       },
       {
-        id: 10,
+        id: 41,
         name: "Stroopwafel",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Netherlands/stroopwafel-2-ned.jpeg?raw=true",
@@ -358,11 +358,35 @@ const DESSERT_DATA = [
         type: "Treacle Waffle",
       },
       {
-        id: 10,
+        id: 42,
         name: "Mamoulia",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Greece/Mamoulia-greece.jpeg?raw=true",
         origin: "Greece",
+        type: "Traditional Cookies",
+      },
+      {
+        id: 43,
+        name: "Kichel",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Ashkenazi/egg-kichel-ashk.png?raw=true",
+        origin: "Ashkenazi Jewish",
+        type: "Traditional Cookies",
+      },
+      {
+        id: 44,
+        name: "Chocolate Chip Cookies",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/chocolate-chip-cookie-usa.jpg?raw=true",
+        origin: "Ashkenazi Jewish",
+        type: "Traditional Cookies",
+      },
+      {
+        id: 45,
+        name: "Sospiri di Ozieri",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/sospiri-di-ozieri-2-italy.jpg?raw=true",
+        origin: "Italian",
         type: "Traditional Cookies",
       },
     ],
@@ -371,7 +395,7 @@ const DESSERT_DATA = [
     title: "Fried Doughs",
     items: [
       {
-        id: 11,
+        id: 46,
         name: "Puff Puff",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Nigeria/puff-puff-nigeria.png?raw=true",
@@ -379,7 +403,7 @@ const DESSERT_DATA = [
         type: "Fried Dough",
       },
       {
-        id: 12,
+        id: 47,
         name: "Mandazi",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Tanzania/mandazi-2.jpeg?raw=true",
@@ -387,7 +411,7 @@ const DESSERT_DATA = [
         type: "Fried Dough",
       },
       {
-        id: 13,
+        id: 48,
         name: "Zeppole",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/zeppole-2.jpeg?raw=true",
@@ -395,12 +419,43 @@ const DESSERT_DATA = [
         type: "Fried Dough",
       },
       {
-        id: 14,
+        id: 49,
         name: "Calas",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Creole/calas-creole.jpeg?raw=true",
         origin: "United States (Louisiana)",
         type: "Rice Fritter",
+      },
+      {
+        id: 50,
+        name: "Pączki",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Poland/paczki-poland.jpeg?raw=true",
+        origin: "Poland",
+        type: "Doughnut",
+      },
+      {
+        id: 51,
+        name: "Malasadas",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Portugal/malasadas-portugal.jpg?raw=true",
+        type: "Yeast-leavened donuts",
+      },
+      {
+        id: 52,
+        name: "Chiacchiere",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Italy/chiacchiere-it.jpg?raw=truev",
+        origin: "Italy",
+        type: "Carnaval Pastry Fritters",
+      },
+      {
+        id: 53,
+        name: "Picarones",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Peru/picarones-peru.jpg?raw=true",
+        origin: "Peru",
+        type: "Donut",
       },
     ],
   },
@@ -408,7 +463,7 @@ const DESSERT_DATA = [
     title: "Custards & Puddings",
     items: [
       {
-        id: 15,
+        id: 54,
         name: "Papo de Anjo",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Portugal/papos-de-anjo-1.jpg?raw=true",
@@ -416,57 +471,77 @@ const DESSERT_DATA = [
         type: "Egg Yolk Custard",
       },
       {
-        id: 16,
-        name: "Ile Flottante",
+        id: 55,
+        name: "Île flottante",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/France/ile-flottante-france.jpg?raw=true",
         origin: "France",
-        type: "Floating Island",
+        type: "meringue",
       },
       {
-        id: 17,
+        id: 56,
         name: "Tavuk Göğsü",
         imageUrl:
-          "https://github.com/MorganEJLA/dessert-images/blob/main/tavuk-gogsu-turk2.jpeg?raw=true",
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Balkans/Turkey/tavukgogsu-turk.jpeg?raw=true",
         origin: "Turkey",
         type: "Milk Pudding",
       },
       {
-        id: 18,
+        id: 57,
+        name: "Quindim",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Brazil/quindim-br.jpg?raw=true",
+        origin: "Brazil",
+        type: "coconut pudding",
+      },
+      {
+        id: 58,
         name: "Zapekanka",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Ukraine/zapekanka.png?raw=true",
         origin: "Russia",
         type: "Cottage Cheese Pudding",
       },
-    ],
-  },
-  {
-    title: "Breads & Buns",
-    items: [
       {
-        id: 19,
-        name: "Bolo Bao",
+        id: 59,
+        name: "Khao Niao Mamuang",
         imageUrl:
-          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/HongKong/pineapple-bun-bolo-bao-hk.jpeg?raw=true",
-        origin: "Hong Kong",
-        type: "Sweet Bun",
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Thailand/khao-niao-mamuang-thailand.jpg?raw=true",
+        origin: "Thailand",
+        type: "Rice Pudding",
       },
       {
-        id: 20,
-        name: "Kasutera",
+        id: 60,
+        name: "Purin",
         imageUrl:
-          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Japan/kasutera.jpeg?raw=true",
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Japan/purin-cus-jp.jpg?raw=true",
         origin: "Japan",
-        type: "Sponge Cake",
+        type: "Pudding",
+      },
+      {
+        id: 61,
+        name: "Mazamorra Morada",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Peru/mazamorra-morada-peru.png?raw=true",
+        origin: "Peru",
+        type: "Purple Corn Pudding",
+      },
+      {
+        id: 62,
+        name: "Tembleque",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Caribbean/Puerto-Rico/tembleque-pddng-pr.jpg?raw=true",
+        origin: "Puerto Rico",
+        type: "Coconut Milk Pudding",
       },
     ],
   },
+
   {
     title: "Confections",
     items: [
       {
-        id: 21,
+        id: 63,
         name: "Turrón de Doña Pepa",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Peru/turron-de-dona-pepa-peru.jpeg?raw=true",
@@ -484,7 +559,7 @@ const DESSERT_DATA = [
       },
 
       {
-        id: 22,
+        id: 64,
         name: "Gaz",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Middle-East/Iran/gaz-iran.jpeg?raw=true",
@@ -492,47 +567,114 @@ const DESSERT_DATA = [
         type: "Persian Nougat",
       },
       {
-        id: 23,
+        id: 65,
         name: "Fudge",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Baltimore/fudge-baltimore.jpeg?raw=true",
-        origin: "United States",
+        origin: "Baltimore, MD, United States",
         type: "Sugar Confection",
       },
+      {
+        id: 66,
+        name: "Turron",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Spain/turron-de-alicante-2.jpeg?raw=true",
+        origin: "Spain",
+        type: "Nougat",
+      },
+      {
+        id: 67,
+        name: "Lübecker Marzipan",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Spain/lubecker-marzipan-germ.jpg?raw=true",
+        origin: "Spain",
+        type: "Marzipan",
+      },
+      {
+        id: 68,
+        name: "Kẹo dừa",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Vietnam/K%E1%BA%B9o-d%E1%BB%ABa-viet.jpg?raw=true",
+        origin: "Vietnam",
+        type: "Coconut Candy",
+      },
+      {
+        id: 69,
+        name: "Turo Rudi",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Europe/Hungary/turo-rudi-hgy.jpg?raw=true",
+        origin: "Hungary",
+        type: "Cheese Curd Confection",
+      },
+      {
+        id: 70,
+        name: "Geplak",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Indonesia/geplak-ind.jpg?raw=true",
+        origin: "Indonesia",
+        type: "Coconut Confection",
+      },
     ],
   },
-  {
-    title: "Flambéed Desserts",
-    items: [
-      {
-        id: 24,
-        name: "Bananas Foster",
-        imageUrl:
-          "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Creole/bananas_foster-nola.jpeg?raw=true",
-        origin: "United States (New Orleans)",
-        type: "Flambéed Dessert",
-      },
 
-      {
-        id: 27,
-        name: "Ron Ponche",
-        imageUrl:
-          "https://github.com/MorganEJLA/dessert-images/blob/main/Central-America/Panama/ron-ponche_panama.png?raw=true",
-        origin: "Panama",
-        type: "Spiced Egg Nog",
-      },
-    ],
-  },
   {
     title: "Street Food",
     items: [
       {
-        id: 26,
+        id: 71,
         name: "Kelewele",
         imageUrl:
           "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Ghana/kelewelee-1.png?raw=true",
         origin: "Ghana",
         type: "Spiced Fried Plantains",
+      },
+      {
+        id: 72,
+        name: "Egg Waffle",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/HongKong/egg-waffle-street-hk.jpg?raw=true",
+        origin: "Hong Kong",
+        type: "street delicacy with eggs",
+      },
+      {
+        id: 73,
+        name: "Bionico",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Central-America/Mexico/bionico-mx.jpg?raw=true",
+        origin: "Mexico",
+        type: "Fruit Salad",
+      },
+      {
+        id: 74,
+        name: "Kue Putu",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Indonesia/kue-putu-ind.jpg?raw=true",
+        origin: "Indonesia",
+        type: "Glutenous Rice Cake",
+      },
+      {
+        id: 75,
+        name: "Picarones",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Indonesia/kue-putu-ind.jpg?raw=true",
+        origin: "Peru",
+        type: "Donut",
+      },
+      {
+        id: 76,
+        name: "Sno-ball",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Creole/sno-ball-nola.jpg?raw=true",
+        origin: "New Orleans, LA, USA",
+        type: "Shaved Ice Dessert",
+      },
+      {
+        id: 77,
+        name: "Cocadas",
+        imageUrl:
+          "https://github.com/MorganEJLA/dessert-images/blob/main/Central-America/Mexico/cocadas-mx.jpg?raw=true",
+        origin: "Mexico",
+        type: "Coconut",
       },
     ],
   },

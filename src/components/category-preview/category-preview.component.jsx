@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DessertsCard from "../crumbs-card/crumbs-card.component";
 import "./category-preview.styles.scss";
 
@@ -5,9 +6,9 @@ const CategoryPreview = ({ title, desserts }) => {
   return (
     <div className="category-preview-container">
       <h2>
-        <span className="title">
+        <Link className="title" to={title}>
           {title ? title.toUpperCase() : "UNTITLED"}
-        </span>
+        </Link>
       </h2>
       <div className="preview">
         {desserts
