@@ -18,7 +18,7 @@ export const LogoContainer = styled(Link)`
   justify-content: center;
 
   svg {
-    height: 60px; // Or try 50px if 60 is too big
+    height: 120px; // Or try 50px if 60 is too big
     width: auto;
     max-width: 100%;
   }

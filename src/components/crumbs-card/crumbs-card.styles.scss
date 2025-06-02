@@ -13,11 +13,18 @@
   }
   button {
     width: 80%;
+    max-width: 90%;
     opacity: 0.7;
     position: absolute;
-    top: 255px;
+    top: 220px;
     display: none;
+    white-space: normal; // allow wrapping
+    text-align: center; // center long lines
+    overflow-wrap: break-word; // wrap long words
+    padding: 0.5rem;
+    font-size: 0.9rem;
   }
+
   &:hover {
     img {
       opacity: 0.8;

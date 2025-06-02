@@ -6,35 +6,52 @@ const Home = () => {
   const categories = [
     {
       id: 1,
-      title: "Cookies",
+      title: "Cakes",
+      blurb: "Sponge, cream, and everything dreamy",
       imageUrl:
-        "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/amaretti-it.jpg?raw=true",
+        "https://github.com/MorganEJLA/dessert-images/blob/main/South-America/Argentina/rogel-argentina.jpg?raw=true",
     },
     {
       id: 2,
-      title: "Pastries",
+      title: "Tarts & Pies",
+      blurb: "Petite, powerful, and polished",
       imageUrl:
-        "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/pastel-de-nata-pt.jpg?raw=true",
+        "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Philippines/buko-pie-phil.jpg?raw=true",
     },
     {
       id: 3,
-      title: "Confections",
+      title: "Cookies",
+      blurb: "Crisp edges, chewy centers, pure joy",
       imageUrl:
-        "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/torrone-di-bagnara-italy.jpg?raw=true",
+        "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/black-and-white-cookie-nyc.jpg?raw=true",
     },
     {
       id: 4,
-      title: "Global Bites",
-      subtitle: "Taste the World",
+      title: "Fried Doughs",
+      blurb: "Hot oil, sweet soul",
       imageUrl:
-        "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/clifford-5ZB0w0vSgPk-unsplash.jpg?raw=true",
+        "https://github.com/MorganEJLA/dessert-images/blob/main/Africa/Nigeria/puff-puff-nigeria.png?raw=true",
     },
     {
       id: 5,
-      title: "Ingredients",
-      subtitle: "Unlock the Secrets",
+      title: "Custards & Puddings",
+      blurb: "Silky spoons of comfort",
       imageUrl:
-        "https://github.com/MorganEJLA/pastry-hero-images/blob/main/images/chocolate-banner.jpg?raw=true",
+        "https://github.com/MorganEJLA/dessert-images/blob/main/Asia/Japan/purin-cus-jp.jpg?raw=true",
+    },
+    {
+      id: 6,
+      title: "Confections",
+      blurb: "Tiny treats, big personality",
+      imageUrl:
+        "https://github.com/MorganEJLA/dessert-images/blob/main/Middle-East/Iran/gaz-iran.jpeg?raw=true",
+    },
+    {
+      id: 7,
+      title: "Street Food",
+      blurb: "Handheld happiness, local flavor",
+      imageUrl:
+        "https://github.com/MorganEJLA/dessert-images/blob/main/North-America/Creole/sno-ball-nola.jpg?raw=true",
     },
   ];
 
