@@ -7,7 +7,7 @@ const CategoryPreview = ({ title, desserts }) => {
     <div className="category-preview-container">
       <h2>
         <Link className="title" to={title}>
-          {title ? title.toUpperCase() : "UNTITLED"}
+          {title || "untitled"}
         </Link>
       </h2>
       <div className="preview">
