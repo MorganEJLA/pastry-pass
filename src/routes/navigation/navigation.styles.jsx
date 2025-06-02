@@ -1,6 +1,22 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+export const SignOutButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  /* Add any hover/focus styles to match NavLink */
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+`;
+
 export const NavigationContainer = styled.div`
   height: 70px;
   width: 100%;
